@@ -122,4 +122,27 @@ body
 }
 
 
+/* items display */
+.items{
+	width: 30%;
+	background-color: #d8ae86;
+	
+	float: left;
+	margin: 3px;
+
+}
+.items img{
+	width: 100%;
+	height: 250px;
+}
+
+.md{
+
+}
+
+.md img {
+	width: 20%;
+	height: 250px;
+}
+
 

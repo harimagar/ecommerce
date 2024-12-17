@@ -8,7 +8,7 @@
 		$customer_email = $_POST['customer_email'];
 		$customer_phone = $_POST['customer_phone'];
 
-		$conn = mysqli_connect("localhost", "root", "", "grocery_store_db");
+		$conn = mysqli_connect("localhost", "root", "", "ecommerce_db");
 		mysqli_query($conn, "INSERT INTO `customer` (`customer_name`, `customer_username`, `customer_password`, `customer_email`, `customer_phone`) VALUES ('".$customer_name."', '".$customer_username."', '".$customer_password."', '".$customer_email."', '".$customer_phone."');");
 		
 		header("Location: ../index.php");
