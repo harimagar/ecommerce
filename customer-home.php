@@ -24,7 +24,7 @@
                 ?>
                 <div class="items">
                   <img src="images/items/<?php echo $item_image; ?>" />
-                  <p class="buy"><center><a href="customer-purchase.php?item_id=<?php echo $item_id; ?>"><button>BUY</button></a></center></p>
+                  <p class="buy"><center><a href="customer-order.php?item_id=<?php echo $item_id; ?>&category_id=<?php echo $category_id; ?>"><button>BUY</button></a></center></p>
                   <p>Item ID: <?php echo $item_id; ?></p>
                   <p>Item Name: <?php echo $item_name; ?></p>
                   <p>Category ID: <?php echo $category_id; ?> </p>

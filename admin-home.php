@@ -10,7 +10,8 @@
             	<p><a href="admin-add-category.php">Manage Category</a></p>
             	<p><a href="admin-add-item.php">Manage ECommerce Item</a></p>
 
-				<p><a href="customer-purchase-details.php">Customer Purchase Details</a></p>            	
+				<p><a href="customer-order-details.php">Customer Order Details</a></p> 
+				<p><a href="view-dataset.php">View Dataset</a></p>            	
 
             	<p><a href="logout.php">Logout</a></p>
             
