@@ -10,7 +10,7 @@
 		$customer_username = $_POST['customer_username'];
 		$customer_password = $_POST['customer_password'];
 
-		$conn = mysqli_connect("localhost","root","","grocery_store_db");
+		$conn = mysqli_connect("localhost","root","","ecommerce_db");
 		$sql = mysqli_query($conn, "SELECT * FROM customer WHERE customer_username= '".$customer_username."' and customer_password = '".$customer_password."'");
 		$data = mysqli_fetch_array($sql);
 		

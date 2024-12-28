@@ -5,6 +5,7 @@
        	<div class="content">
             <div class="content">
             	<h1>Welcome to Customer Home</h1>
+              <p><a href="logout.php">Logout</a></p>
             	<h2>Select an item to Purchase</h2>
 
             	<p>
